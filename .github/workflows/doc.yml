@@ -30,7 +30,6 @@ jobs:
         npm -v
         node -v
         yarn -v
-        echo "${PASSWORD}"
 
       - run: |
         git branch
