@@ -24,6 +24,8 @@ jobs:
 
       # 代码拉取
       - uses: actions/checkout@master
+        with:
+          ref: master
 
       # 环境
       - run: |
