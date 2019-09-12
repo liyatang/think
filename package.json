@@ -1,0 +1,20 @@
+{
+  "name": "think",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push": "git push https://liyatang%40qq.com:$PASSWORD:@github.com/liyatang/think.git master:feature-12313"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyatang/think.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liyatang/think/issues"
+  },
+  "homepage": "https://github.com/liyatang/think#readme"
+}
