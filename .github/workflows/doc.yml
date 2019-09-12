@@ -34,7 +34,7 @@ jobs:
 
       - run: |
         git branch
-        git push origin master:feature-action
+        git push origin master\:feature-action
 
 
 
