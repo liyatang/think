@@ -30,5 +30,7 @@ jobs:
           npm -v
           node -v
           yarn -v
+          git push
+          echo "${PASSWORD}"
 
 
