@@ -35,6 +35,8 @@ jobs:
           echo "${{secrets.PASSWORD}}"
 
       - run: |
+          git branch
+          git checkout master
           npm run push
         env:
           PASSWORD: ${{secrets.PASSWORD}}
