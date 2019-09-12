@@ -27,10 +27,15 @@ jobs:
 
       # 环境
       - run: |
-          npm -v
-          node -v
-          yarn -v
-          git push
-          echo "${PASSWORD}"
+        npm -v
+        node -v
+        yarn -v
+        echo "${PASSWORD}"
+
+      - run: |
+        git branch
+        git push origin master:feature-action
+
+
 
 
