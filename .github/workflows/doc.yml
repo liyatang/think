@@ -27,13 +27,13 @@ jobs:
 
       # 环境
       - run: |
-        npm -v
-        node -v
-        yarn -v
+          npm -v
+          node -v
+          yarn -v
 
       - run: |
-        git branch
-        git push origin master\:feature-action
+          git branch
+          git push origin master\:feature-action
 
 
 
