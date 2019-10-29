@@ -35,6 +35,7 @@ jobs:
 
       - run: |
           git branch
+          git checkout master
           git push 'https://liyatang%40qq.com:${{secrets.PASSWORD}}@github.com/liyatang/think.git' master:feature-222
           
         env:
