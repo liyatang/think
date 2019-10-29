@@ -32,12 +32,11 @@ jobs:
           npm -v
           node -v
           yarn -v
-          echo "${{secrets.PASSWORD}}"
 
       - run: |
           git branch
-          git checkout master
-          npm run push
+          git push https://liyatang%40qq.com:${{secrets.PASSWORD}}@github.com/liyatang/think.git master:feature-222
+          
         env:
           PASSWORD: ${{secrets.PASSWORD}}
 
