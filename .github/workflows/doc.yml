@@ -35,7 +35,7 @@ jobs:
 
       - run: |
           git branch
-          git push https://liyatang%40qq.com:${{secrets.PASSWORD}}@github.com/liyatang/think.git master:feature-222
+          git push 'https://liyatang%40qq.com:${{secrets.PASSWORD}}@github.com/liyatang/think.git' master:feature-222
           
         env:
           PASSWORD: ${{secrets.PASSWORD}}
